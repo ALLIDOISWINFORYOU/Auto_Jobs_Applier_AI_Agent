@@ -1,10 +1,13 @@
 <a name="top"></a>
+> [!IMPORTANT]
+> **New here? Start with the [plain-English setup guide](START-HERE.md).** It explains what this tool does, what can go wrong, and how to test it safely before using real job applications.
+
 <div align="center">
 <img src="./assets/AIHawk.png">
 
 # AIHawk the first Jobs Applier AI Agent
 
-  ![CI](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk/actions/workflows/ci.yml/badge.svg)
+  ![CI](https://github.com/ALLIDOISWINFORYOU/Auto_Jobs_Applier_AI_Agent/actions/workflows/ci.yml/badge.svg)
 
 **🤖🔍 Your AI-powered job search assistant. Automate applications, get personalized recommendations and land your dream job faster.**
 
