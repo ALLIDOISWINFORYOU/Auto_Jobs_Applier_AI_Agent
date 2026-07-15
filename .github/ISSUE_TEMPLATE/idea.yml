@@ -1,0 +1,24 @@
+name: "Make it easier"
+description: "Suggest a simpler or safer experience."
+title: "[IDEA] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: win
+    attributes:
+      label: What would make this easier?
+      placeholder: "Example: Give me one setup checker that tells me what is missing."
+    validations:
+      required: true
+  - type: textarea
+    id: pain
+    attributes:
+      label: What is confusing or slow right now?
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: What would the better version feel like?
+      placeholder: "Describe the result. You do not need to design the code."
