@@ -1,0 +1,40 @@
+name: "Something's broken"
+description: "Explain what went wrong without needing technical language."
+title: "[BROKEN] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include passwords, AI access keys, Social Security numbers, or private resume details.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What were you trying to do?
+      placeholder: "Example: Test the tool with one job listing."
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened instead?
+      placeholder: "Paste the exact error if you have one."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: What kind of computer are you using?
+      placeholder: "Example: MacBook, Windows 11, or Ubuntu"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or extra clues
+      description: "Hide private information before uploading."
